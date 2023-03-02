@@ -1,1 +1,1 @@
-web: streamlit run <name_of_your_python_file>.py
+web: streamlit run <football_app.py>.py
