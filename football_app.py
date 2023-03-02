@@ -8,10 +8,14 @@ import datetime
 
 st.set_page_config(page_title="My App", page_icon=":guardsman:", layout="wide", initial_sidebar_state="expanded")
 
-st.set_theme({
-    "backgroundColor": "#FFFF00",
-    "font": "Arial"
-})
+st.set_page_config(
+    page_title="Footix",
+    page_icon=":soccer:",
+    layout="wide",
+    initial_sidebar_state="expanded",
+    theme="green"
+)
+
 def get_fixtures(date):
     url = "https://api-football-v1.p.rapidapi.com/v3/fixtures"
     querystring = {"date": date}
