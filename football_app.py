@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 import requests
 import json
-
+import datetime
 def get_fixtures(date):
     url = "https://api-football-v1.p.rapidapi.com/v3/fixtures"
     querystring = {"date": date}
