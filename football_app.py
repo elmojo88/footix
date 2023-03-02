@@ -1,6 +1,8 @@
 import requests
 import json
-
+import streamlit as st
+import pandas as pd
+import numpy as np
 url = "https://api-football-v1.p.rapidapi.com/v3/fixtures"
 querystring = {"date": "2023-03-02"}
 headers = {
