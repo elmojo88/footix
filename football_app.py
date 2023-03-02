@@ -5,13 +5,7 @@ import requests
 import json
 import datetime
 
-st.set_page_config(
-    page_title="Footix",
-    page_icon=":soccer:",
-    layout="wide",
-    initial_sidebar_state="expanded",
-    theme="green"
-)
+st.set_page_config(page_title="Footix", page_icon=":soccer:", layout="wide")
 
 def get_fixtures(date):
     url = "https://api-football-v1.p.rapidapi.com/v3/fixtures"
