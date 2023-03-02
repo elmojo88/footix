@@ -5,9 +5,6 @@ import requests
 import json
 import datetime
 
-
-st.set_page_config(page_title="My App", page_icon=":guardsman:", layout="wide", initial_sidebar_state="expanded")
-
 st.set_page_config(
     page_title="Footix",
     page_icon=":soccer:",
