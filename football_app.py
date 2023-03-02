@@ -4,6 +4,14 @@ import numpy as np
 import requests
 import json
 import datetime
+
+
+st.set_page_config(page_title="My App", page_icon=":guardsman:", layout="wide", initial_sidebar_state="expanded")
+
+st.set_theme({
+    "backgroundColor": "#FFFF00",
+    "font": "Arial"
+})
 def get_fixtures(date):
     url = "https://api-football-v1.p.rapidapi.com/v3/fixtures"
     querystring = {"date": date}
